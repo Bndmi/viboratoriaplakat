@@ -17,7 +17,7 @@ h2 {
   font-family: 'Montserrat', sans-serif; font-size: 14px; color: white; margin-left: 346px;
 }
 p {
-  font-family: 'Montserrat', sans-serif; font-weight: 300; color: white;
+  font-family: 'Montserrat', sans-serif; font-weight: bold; color: white; margin-bottom: 4px;
 }
 section:nth-of-type(1) {
   display: flex;
@@ -101,6 +101,23 @@ section:nth-of-type(1) {
    height: 296.44px;
    margin-top: 16px;
    z-index: 1;
+  }
+  #indent_p1 {
+    display: inline-block;
+    height: 28px;
+    margin-top: -32px;
+    margin-right: 45px;
+  }
+  #p1 {
+    display: block;
+    margin-left: 45px;
+    font-size: 14px;
+  }
+  #p2 {
+    display: block;
+    margin-left: 1276px;
+    margin-right: 45px;
+    font-size: 14px;
   }
      /* #sq1 {
      position: absolute;
@@ -225,19 +242,6 @@ section:nth-of-type(1) {
      border-radius: 50%;
      height: 85px;
      width: 85px;
-   }
-   .p1 {
-     display: block;
-     margin-top: 464px;
-     margin-left: 480px;
-     font-size: 42px;
-   }
-   .p2 {
-     margin-left: 60px;
-     margin-top: 270px;
-     font-size: 40px;
-     text-align: left;
-     width: 728px;
    }
    .fonts {
      position: relative;
