@@ -6,7 +6,7 @@ body {
   display: block;
 }
 html {
-  background: black;
+  background: #bbb;
   position: relative;
   height: 100%;
 }
@@ -17,7 +17,7 @@ h2 {
   font-family: 'Montserrat', sans-serif; font-size: 14px; color: white; margin-left: 346px;
 }
 p {
-  font-family: 'Montserrat', sans-serif; font-weight: bold; color: white; margin-bottom: 4px;
+  font-family: 'Montserrat', sans-serif; font-weight: bold; color: white; margin-bottom: 4px; color: #006dad;
 }
 section:nth-of-type(1) {
   display: flex;
@@ -26,15 +26,15 @@ section:nth-of-type(1) {
   align-items: center;
   background: rgba(255, 220, 54, 1);
   vertical-align: top;
-  }
-  section div {
-    overflow: hidden;
-    width: 50%;
-  }
-  section img {
-  padding-left: 50px;
-  }
-   section:nth-of-type(2) {
+}
+section div {
+  overflow: hidden;
+  width: 50%;
+}
+  /* section img {
+   padding-left: 50px;
+  }  */
+   /* section:nth-of-type(2) {
      display: flex;
      justify-content: space-between;
      vertical-align: top;
@@ -51,6 +51,12 @@ section:nth-of-type(1) {
      margin-left: 60px;
      text-align: center;
      line-height: 48px;
+   } */
+   #star1 {
+     display: inline-block;
+     height: : 10.77px;
+     margin-left: 597.15px;
+     z-index: 5;
    }
    #indent {
      display: inline-block;
@@ -58,9 +64,9 @@ section:nth-of-type(1) {
      height: 296.44px;
      margin-top: 16px;
      margin-left: 45px;
-     z-index: 7;
+     z-index: 4;
    }
-   #card {
+#card {
    display: inline-block;
    /* position: absolute; */
    width: 197.63px;
@@ -68,56 +74,25 @@ section:nth-of-type(1) {
    margin-top: 16px;
    margin-left: 33px;
    margin-bottom: 17px;
-   z-index: 6;
+   z-index: 3;
  }
-  #card {
-   display: inline-block;
-   /* position: absolute; */
-   width: 197.63px;
-   height: 296.44px;
-   margin-top: 16px;
-   z-index: 5;
-  }
-     #card {
-     display: inline-block;
-     /* position: absolute; */
-     width: 197.63px;
-     height: 296.44px;
-     margin-top: 16px;
-     z-index: 3;
-   }
-   #card {
-   display: inline-block;
-   /* position: absolute; */
-   width: 197.63px;
-   height: 296.44px;
-   margin-top: 16px;
-   z-index: 2;
- }
-   #card {
-   display: inline-block;
-   /* position: absolute; */
-   width: 197.63px;
-   height: 296.44px;
-   margin-top: 16px;
-   z-index: 1;
-  }
-  #indent_p1 {
-    display: inline-block;
-    height: 28px;
-    margin-top: -32px;
-    margin-right: 45px;
-  }
+
   #p1 {
     display: block;
     margin-left: 45px;
+    margin-right: 0px;
     font-size: 14px;
+    width: 291px;
+    z-index: 1;
   }
   #p2 {
     display: block;
+    margin-top: -35px;
     margin-left: 1276px;
     margin-right: 45px;
     font-size: 14px;
+    width: 119px;
+    z-index: 2;
   }
      /* #sq1 {
      position: absolute;
