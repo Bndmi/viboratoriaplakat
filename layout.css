@@ -52,20 +52,50 @@ section div {
      text-align: center;
      line-height: 48px;
    } */
-   #star1 {
-     display: inline-block;
-     height: : 10.77px;
-     margin-left: 597.15px;
-     z-index: 5;
-   }
-   #indent {
-     display: inline-block;
-     width: 197.63px;
-     height: 296.44px;
-     margin-top: 16px;
-     margin-left: 45px;
-     z-index: 4;
-   }
+#star1 {
+    display: inline-block;
+    height: : 10.77px;
+    margin-left: 597.15px;
+    z-index: 5;
+}
+#star2 {
+    display: inline-block;
+    height: : 7px;
+    margin-left: 678.68px;
+    z-index: 5;
+}
+#star3 {
+    display: inline-block;
+    height: : 27px;
+    margin-left: 1123px;
+    z-index: 5;
+}
+#star4 {
+    display: inline-block;
+    height: : 77px;
+    margin-left: 1156.68px;
+    z-index: 5;
+}
+#sneg1 {
+    display: inline-block;
+    height: : 20px;
+    margin-left: 1345px;
+    z-index: 5;
+}
+#sneg2 {
+    display: inline-block;
+    height: : 134.04px;
+    margin-left: 12.81px;
+    z-index: 5;
+}
+#indent {
+    display: inline-block;
+    width: 197.63px;
+    height: 296.44px;
+    margin-top: 16px;
+    margin-left: 45px;
+    z-index: 4;
+}
 #card {
    display: inline-block;
    /* position: absolute; */
@@ -76,7 +106,6 @@ section div {
    margin-bottom: 17px;
    z-index: 3;
  }
-
   #p1 {
     display: block;
     margin-left: 45px;
@@ -94,6 +123,9 @@ section div {
     width: 119px;
     z-index: 2;
   }
+  /* #star {
+
+  } */
      /* #sq1 {
      position: absolute;
      width: 584px;
