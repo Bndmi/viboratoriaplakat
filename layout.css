@@ -1,6 +1,5 @@
 body {
   width: 1440px;
-  /* height: 1499.73px; */
   margin: 0 auto;
   background-size: auto%;
   background: black;
@@ -28,585 +27,202 @@ section:nth-of-type(1) {
   background: rgba(255, 220, 54, 1);
   vertical-align: top;
 }
-/* section div {
-  overflow: hidden;
-  width: 50%;
-} */
-  /* section img {
-   padding-left: 50px;
-  }  */
-   /* section:nth-of-type(2) {
-     display: flex;
-     justify-content: space-between;
-     vertical-align: top;
-   }
-   section:nth-of-type(2) div {
-     overflow: hidden;
-     width: 50%;
-   }
-   section:nth-of-type(2) p {
-     width: 728px;
-     font-size: 40px;
-     position: absolute;
-     margin-top: 60px;
-     margin-left: 60px;
-     text-align: center;
-     line-height: 48px;
-   } */
+.infor_h{
+  padding-top: 16px;
+  padding-left: 33px;
+  width: 197.63px;
+  height: 296.44px;
+  opacity: 0;
+}
 .title {
   position: fixed;
   z-index: 1;
 }
-.decor img {
-  position: relative;
-  width: 82.67px;
-}
-.indent_decor {
-    display: block;
-    position:absolute;
-    width: 1400px;
-    height: 1403px;
-    /* margin-top: 16px; */
-    margin-left: 45px;
-    z-index: 20;
-}
 .star1 {
-    left: 597.15px;
-    top: 10.77px;
-    z-index: 5;
+    display: inline-block;
+    left: 897.15px;
+    top: 30.77px;
+    z-index: 30;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
-/* .star1 {
-    display: block;
-    position: fixed;
-    width: 10.77px;
-    height: : 10.77px;
-    margin-left: 597.15px;
-    z-index: 5;
-} */
 .star2 {
-    display: block;
-    position: fixed;
-    height: : 7px;
-    margin-left: 678.68px;
-    z-index: 6;
+    top: 7px;
+    left: 678.68px;
+    z-index: 31;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
 .star3 {
-    display: block;
-    position: fixed;
-    height: : 27px;
-    margin-left: 1123px;
-    z-index: 7;
+    top: 27px;
+    left: 1123px;
+    z-index: 32;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
 .star4 {
-    display: block;
-    position: fixed;
-    height: : 77px;
-    margin-left: 1156.68px;
-    z-index: 8;
+    top: 77px;
+    left: 1156.68px;
+    z-index: 33;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
 .sneg1 {
-    display: block;
-    position: fixed;
-    height: : 20px;
-    margin-left: 1345px;
-    z-index: 9;
+    top: 20px;
+    left: 1345px;
+    z-index: 34;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
 .sneg2 {
-    display: block;
-    position: fixed;
-    height: : 134.04px;
-    margin-left: 12.81px;
-    z-index: 10;
+    top: 134.04px;
+    left: 6px;
+    z-index: 35;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
 .star5 {
-    display: block;
-    position: fixed;
-    height: : 396px;
-    margin-left: 466.68px;
-    z-index: 11;
+    top: 410px;
+    left: 460px;
+    z-index: 36;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
 .sneg3 {
-    display: block;
-    position: fixed;
-    height: : 538.04px;
-    margin-left: 939.81px;
-    z-index: 12;
+    top: 538.04px;
+    left: 939.81px;
+    z-index: 37;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
 .sneg4 {
-    display: block;
-    position: fixed;
-    height: :600px;
-    margin-left: 25.07px;
-    z-index: 13;
+    top: 600px;
+    left: 15px;
+    z-index: 38;
+    position: absolute;
+    animation: star_and_snow 1.5s infinite;
 }
 .sneg5 {
-    display: block;
-    position: fixed;
-    height: :742.04px;
-    margin-left: 712.81px;
-    z-index: 14;
+  top: 742.04px;
+  left: 712.81px;
+  z-index: 39;
+  position: absolute;
+  animation: star_and_snow 1.5s infinite;
 }
 .sneg6 {
-    display: block;
-    position: fixed;
-    height: :758px;
-    margin-left: 700.07px;
-    z-index: 15;
+  top: 760px;
+  left: 700.07px;
+  z-index: 40;
+  position: absolute;
+  animation: star_and_snow 1.5s infinite;
 }
 .sneg7 {
-    display: block;
-    position: fixed;
-    height: :839px;
-    margin-left: 254px;
-    z-index: 16;
+  top: 839px;
+  left: 254px;
+  z-index: 41;
+  position: absolute;
+  animation: star_and_snow 1.5s infinite;
 }
 .star6 {
-    display: block;
-    position: fixed;
-    height: :1056px;
-    margin-left: 1158.68px;
-    z-index: 17;
+  top: 1080px;
+  left: 1165px;
+  z-index: 42;
+  position: absolute;
+  animation: star_and_snow 1.5s infinite;
 }
 .star7 {
-    display: block;
-    position: fixed;
-    height: :1378px;
-    margin-left: 465px;
-    z-index: 18;
+  top: 1420px;
+  left: 457px;
+  z-index: 43;
+  position: absolute;
+  animation: star_and_snow 1.5s infinite;
 }
 .star8 {
-    display: block;
-    position: fixed;
-    height: :1403px;
-    margin-left: 909.15px;
-    z-index: 17;
+  top: 1403px;
+  left: 909.15px;
+  z-index: 44;
+  position: absolute;
+  animation: star_and_snow 1.5s infinite;
 }
 .sneg7 {
-    display: block;
-    position: fixed;
-    height: :1404px;
-    margin-left: 909px;
-    z-index: 19;
+  top: 1404px;
+  left: 909px;
+  z-index: 45;
+  position: absolute;
+  animation: star_and_snow 1.5s infinite;
 }
-#indent {
+#indent_row {
     display: inline-block;
     width: 197.63px;
     height: 296.44px;
-    margin-top: 16px;
-    margin-left: 45px;
-    z-index: 4;
+    margin-top: 32px;
+    z-index: 20;
+    position: relative;
 }
-#card {
-   display: inline-block;
-   /* position: absolute; */
+#layer1{
+    position: flex;
+}
+#layer2 {
+    position: flex;
+}
+#layer1 {
+    z-index: 50;
+}
+#layer2 {
+    z-index: 55;
+}
+.card_pr {
+  width: 197.63px;
+  height: 296.44px;
+  position: absolute;
+  background: url('элементы/Обложка карты.svg');
+  background-size: auto 100% ;
+  background-repeat: no-repeat;
+  transition: all 4s;
+  transition-delay: 1s;
+  position: relative;
+  z-index: 20;
+}
+.card_under {
+  width: 197.63px;
+  height: 296.44px;
+  z-index: 1;
+  position: relative;
+  opacity: 0;
+}
+.card_pr_block{
+   position:relative;
+   display:inline-block;
+   top: 0px;
+   margin-left: 33px;
+   margin-top: 33px;
    width: 197.63px;
    height: 296.44px;
-   margin-top: 16px;
-   margin-left: 33px;
-   margin-bottom: 17px;
-   z-index: 3;
- }
-  #p1 {
-    display: block;
-    margin-left: 45px;
-    margin-right: 0px;
-    font-size: 14px;
-    width: 291px;
-    z-index: 1;
-  }
-  #p2 {
-    display: block;
-    margin-top: -35px;
-    margin-left: 1276px;
-    margin-right: 45px;
-    font-size: 14px;
-    width: 119px;
-    z-index: 2;
-  }
-  /* #star {
-
-  } */
-     /* #sq1 {
-     position: absolute;
-     width: 584px;
-     height: 1780px;
-     background: rgba(244, 100, 66, 1);
-     margin-left: 857px;
-     }
-
-     hr.l1 {
-     display: block;
-     position: absolute;
-     border: none;
-     background-color: rgba(0, 145, 168, 1);
-     height: 2px;
-     margin-top: 370px;
-     margin-left: 0px;
-     width: 857px;
-     opacity: 35%;
-   }
-   hr.l2 {
-     display: block;
-     position: absolute;
-     border: none;
-     background-color: rgba(0, 145, 168, 1);
-     height: 2px;
-     margin-top: 413.5px;
-     margin-left: 0px;
-     width: 857px;
-     opacity: 35%;
-   }
-   hr.l3 {
-     display: block;
-     position: absolute;
-     border: none;
-     background-color: rgba(0, 145, 168, 1);
-     height: 2px;
-     margin-top: 457px;
-     margin-left: 0px;
-     width: 857px;
-     opacity: 35%;
-   }
-   hr.l4 {
-     display: block;
-     position: absolute;
-     border: none;
-     background-color: rgba(0, 145, 168, 1);
-     height: 2px;
-     margin-top: 500.5px;
-     margin-left: 0px;
-     width: 857px;
-     opacity: 35%;
-   }
-   hr.l5 {
-     display: block;
-     position: absolute;
-     border: none;
-     background-color: rgba(0, 145, 168, 1);
-     height: 2px;
-     margin-top: 544px;
-     margin-left: 0px;
-     width: 857px;
-     opacity: 35%;
-   }
-   hr.l6 {
-     display: block;
-     position: absolute;
-     border: none;
-     background-color: rgba(0, 145, 168, 1);
-     height: 2px;
-     margin-top: 587.5px;
-     margin-left: 0px;
-     width: 857px;
-     opacity: 35%;
-   }
-   hr.l7 {
-     display: block;
-     position: absolute;
-     border: none;
-     background-color: rgba(0, 145, 168, 1);
-     height: 2px;
-     margin-top: 631px;
-     margin-left: 0px;
-     width: 857px;
-     opacity: 35%;
-   }
-   hr.l8 {
-     display: block;
-     position: absolute;
-     border: none;
-     background-color: rgba(0, 145, 168, 1);
-     height: 2px;
-     margin-top: 674.5px;
-     margin-left: 0px;
-     width: 857px;
-     opacity: 35%;
-   }
-   #Я {
-   font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 435px;
-   position: absolute;
-   margin-top: 303px;
-   margin-left: 155px;
-   }
-   .round {
-     display: block;
-     position: absolute;
-     margin-top: 333px;
-     margin-left: 375px;
-     opacity: 40%;
-     background: rgba(244, 100, 66, 1);
-     border-radius: 50%;
-     height: 85px;
-     width: 85px;
-   }
-   .round2 {
-     display: block;
-     position: absolute;
-     margin-top: 618px;
-     margin-left: 169px;
-     opacity: 40%;
-     background: rgba(244, 100, 66, 1);
-     border-radius: 50%;
-     height: 85px;
-     width: 85px;
-   }
-   .fonts {
-     position: relative;
-     margin-left: 1000px;
-     font-size: 36px;
-     margin-top: -130px;
-     z-index: 1;
-     line-height: 27px;
-     color: white;
-   }
-   .fonts_italic {
-     font-size: 36px;
-     position: relative;
-     margin-left: 1180px;
-     margin-top: -475px;
-     z-index: 1;
-     line-height: 27px;
-     color: white;
-   }
-   #bord {
-     border: 4px solid white;
-     width: 478px;
-     height: 545px;
-     margin-left: 910px;
-     margin-top: -526px;
-     text-align: left;
-     z-index: 1;
-     display: block;
-     position: absolute;
-   }
-   .p3 {
-     margin-left: 60px;
-     margin-top: 200px;
-     font-size: 40px;
-     text-align: left;
-     width: 684px;
-   }
-   .sq {
-     height: 256px;
-     width: 314px;
-     left: 912px;
-     top: 2164px;
-     border-radius: 0px;
-   }
-   .sq2 {
-   height: 256px;
-   width: 314px;
-   position: absolute;
-   display: block;
-   margin-left: 910px;
-   margin-top: -84px;
-   background: #269350;
-   mix-blend-mode: screen;
-   }
-   .sq2 img {
-     padding-left: 20px;
-     padding-top: 20px;
-   }
-   .sq3 {
-     height: 366px;
-     width: 857px;
-     display: inline-block;
-     position: absolute;
-     margin-left: 0px;
-     margin-top: 250px;
-     background: rgba(255, 220, 54, 1);
-     }
-     .sq4 {
-       height: 366px;
-       width: 857px;
-       display: inline-block;
-       position: absolute;
-       margin-left: 584px;
-       margin-top: 616px;
-       background: rgba(255, 220, 54, 1);
-     }
-     .sq5 {
-       height: 366px;
-       width: 857px;
-       display: inline-block;
-       position: absolute;
-       margin-left: 0px;
-       margin-top: 982px;
-       background: rgba(255, 220, 54, 1);
-     }
-     .round3 {
-       display: block;
-       position: absolute;
-       margin-top: 292px;
-       margin-left: 139px;
-       opacity: 100%;
-       background: rgba(244, 100, 66, 1);
-       border-radius: 50%;
-       height: 164px;
-       width: 164px;
-       z-index: 1;
-       mix-blend-mode: screen;
-     }
-     .t_zoom {
-       display: block;
-       position: absolute;
-       margin-top: 267px;
-       margin-left: 430px;
-       height: 332px;
-       width: 332px;
-       z-index: 1;
-     }
-     .round4 {
-       display: block;
-       position: absolute;
-       margin-top: 652px;
-       margin-left: 1126px;
-       opacity: 100%;
-       background: rgba(244, 100, 66, 1);
-       border-radius: 50%;
-       height: 164px;
-       width: 164px;
-       z-index: 1;
-       mix-blend-mode: screen;
-     }
-     .j_zoom {
-       display: block;
-       position: absolute;
-       margin-top: 631px;
-       margin-left: 670px;
-       height: 332px;
-       width: 332px;
-       z-index: 1;
-     }
-     .q_zoom {
-       display: block;
-       position: absolute;
-       margin-top: 1009px;
-       margin-left: 431px;
-       height: 332px;
-       width: 332px;
-       z-index: 1;
-     }
-     .round5 {
-       display: block;
-       position: absolute;
-       margin-top: 1159px;
-       margin-left: 222px;
-       opacity: 100%;
-       background: rgba(244, 100, 66, 1);
-       border-radius: 50%;
-       height: 164px;
-       width: 164px;
-       z-index: 1;
-       mix-blend-mode: screen;
-     }
-     .sq6 {
-       height: 394px;
-       width: 584px;
-       display: inline-block;
-       position: relative;
-       left: 857px;
-       top: 1348px;
-       background: rgba(244, 100, 66, 1);
-     }
-     .abvgd {
-       display: block;
-       position: absolute;
-       margin-top: 1009px;
-       margin-left: 986px;
-       height: 337px;
-       width: 284px;
-       z-index: 1;
-     }
-     .p4 {
-       position: absolute;
-       margin-left: 60px;
-       margin-top: 1408px;
-       font-size: 40px;
-       text-align: left;
-       width: 622px;
-       z-index: 1;
-     }
-     .p5 {
-       position: absolute;
-        margin-left: 60px;
-        margin-top: 1080px;
-        font-size: 40px;
-        text-align: center;
-        width: 728px;
-      }
-      .sq7 {
-        height: 265px;
-        width: 858px;
-        display: absolute;
-        position: relative;
-        left: 0px;
-        top: 1343px;
-        background: rgba(244, 100, 66, 1);
-      }
-      .sq8 {
-        height: 1764px;
-        width: 582px;
-        display: absolute;
-        position: relative;
-        left: 858px;
-        top: 1080px;
-        background: rgba(255, 220, 54, 1);
-      }
-      .computer {
-        display: block;
-        position: absolute;
-        margin-top: -269px;
-        margin-left: 100px;
-        height: 344px;
-        width: 448px;
-        z-index: 1;
-      }
-      .magazine {
-        display: block;
-        position: absolute;
-        margin-top: -269px;
-        margin-left: 904px;
-        height: 356px;
-        width: 491px;
-        z-index: 1;
-      }
-      .whool {
-        display: block;
-        position: absolute;
-        margin-top: 246px;
-        margin-left: 100px;
-        height: 328px;
-        width: 430px;
-        z-index: 1;
-      }
-      .tequila {
-        display: block;
-        position: absolute;
-        margin-top: 140px;
-        margin-left: 914px;
-        height: 434px;
-        width: 298px;
-        z-index: 1;
-      }
-      .sq9 {
-        height: 447px;
-        width: 858px;
-        display: absolute;
-        position: relative;
-        left: 0px;
-        top: 633px;
-        background: rgba(244, 100, 66, 1);
-      }
-      .round6 {
-        display: block;
-        position: absolute;
-        margin-top: 291px;
-        margin-left: 622px;
-        opacity: 100%;
-        background: black;
-        border-radius: 50%;
-        height: 202px;
-        width: 202px;
-        z-index: 1;
-      } */
+}
+.card_pr_block:hover .card_pr{
+   width:  0;
+   transition: all 1s;
+}
+.card_pr_block:hover .card_under {
+  opacity: 1;
+  transition: all 2s;
+}
+#p1 {
+  display: block;
+  margin-left: 45px;
+  margin-right: 0px;
+  font-size: 14px;
+  width: 291px;
+  z-index: 1;
+  position: relative;
+}
+#p2 {
+  display: block;
+  margin-top: -35px;
+  margin-left: 1276px;
+  margin-right: 45px;
+  font-size: 14px;
+  width: 119px;
+  z-index: 2;
+  position: relative;
+}
