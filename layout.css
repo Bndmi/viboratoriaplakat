@@ -44,112 +44,112 @@ section:nth-of-type(1) {
     top: 30.77px;
     z-index: 30;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 3s infinite;
 }
 .star2 {
     top: 7px;
     left: 678.68px;
     z-index: 31;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 5s infinite;
 }
 .star3 {
     top: 27px;
     left: 1123px;
     z-index: 32;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 6s infinite;
 }
 .star4 {
     top: 77px;
     left: 1156.68px;
     z-index: 33;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 2s infinite;
 }
 .sneg1 {
     top: 20px;
     left: 1345px;
     z-index: 34;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 4s infinite;
 }
 .sneg2 {
     top: 134.04px;
     left: 6px;
     z-index: 35;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 6s infinite;
 }
 .star5 {
     top: 410px;
     left: 460px;
     z-index: 36;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 2s infinite;
 }
 .sneg3 {
     top: 538.04px;
     left: 939.81px;
     z-index: 37;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 2s infinite;
 }
 .sneg4 {
     top: 600px;
     left: 15px;
     z-index: 38;
     position: absolute;
-    animation: star_and_snow 1.5s infinite;
+    animation: star_and_snow 5s infinite;
 }
 .sneg5 {
   top: 742.04px;
   left: 712.81px;
   z-index: 39;
   position: absolute;
-  animation: star_and_snow 1.5s infinite;
+  animation: star_and_snow 3s infinite;
 }
 .sneg6 {
   top: 760px;
   left: 700.07px;
   z-index: 40;
   position: absolute;
-  animation: star_and_snow 1.5s infinite;
+  animation: star_and_snow 2s infinite;
 }
 .sneg7 {
   top: 839px;
   left: 254px;
   z-index: 41;
   position: absolute;
-  animation: star_and_snow 1.5s infinite;
+  animation: star_and_snow 4s infinite;
 }
 .star6 {
   top: 1080px;
   left: 1165px;
   z-index: 42;
   position: absolute;
-  animation: star_and_snow 1.5s infinite;
+  animation: star_and_snow 3s infinite;
 }
 .star7 {
   top: 1420px;
   left: 457px;
   z-index: 43;
   position: absolute;
-  animation: star_and_snow 1.5s infinite;
+  animation: star_and_snow 5s infinite;
 }
 .star8 {
   top: 1403px;
   left: 909.15px;
   z-index: 44;
   position: absolute;
-  animation: star_and_snow 1.5s infinite;
+  animation: star_and_snow 5s infinite;
 }
 .sneg7 {
   top: 1404px;
   left: 909px;
   z-index: 45;
   position: absolute;
-  animation: star_and_snow 1.5s infinite;
+  animation: star_and_snow 2s infinite;
 }
 #indent_row {
     display: inline-block;
